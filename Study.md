@@ -16,9 +16,9 @@ Dive into the ecosystem by bootstrpping my first React application from scratch 
 
 #### Why am I learning React before Javascript?
 
-- Because React implements Javascript, and when thinking of efficiency purposes, learning both languages would take signifantly more time to learn all of javascript then all of React, in order.
+- Because React implements Javascript, and while considering future developmental growth, learning both languages would take signifantly more time to learn all of javascript then all of React, in order.
 
-- React will challenge me, and then when i go to Javascript, a lot of what i did will not only help, but have similarites.
+- React will challenge me, and then when I go to Javascript, a lot of what I will have completed, not only helps, but has similarites.
 
 
 ## node and npm
@@ -29,7 +29,7 @@ Dive into the ecosystem by bootstrpping my first React application from scratch 
 -g | globally.
 -y | shortcut to initialize all defaults in package.json
 
---save-dev | indicates that the node package is only used in the development enviroment
+--save-dev | indicates that the node package is only used in the development enviroment.
                           
 
 node --version
@@ -46,8 +46,11 @@ npm install
 
 3. creates folder called node_modules/ and will be listed in the package.json file next to your other dependencies.
 
+ 
 
-You can share your project with other developers without sharing all the node packages. These packages are called dependencies. Everyone can cpy your project without the dependencies. The dependencies are references in the package.json. 
+
+
+You can share your project with other developers without sharing all the node packages. These packages are called dependencies. Everyone can copy your project without the dependencies. The dependencies are references in the package.json. 
 
 Someone who copies your project can simply install all packages by using npm install on the command line.
 
@@ -57,9 +60,63 @@ npm install --save-dev <package>
 
 It will not be used in production when you deploy your application on a server. 
 
-What kind of node package could that be? Imagine you want to test your applicatoin with the help of a node package. You need to install that package via npm, but want to exlcude it from your production environment. Testing should only happen during the devleopmental process but not when your application is already running in production.
+What kind of node package could that be? Imagine you want to test your application with the help of a node package. You need to install that package via npm, but want to exclude it from your production environment. Testing should only happen during the devleopmental process but not when your application is already running in production.
+
+
+
+
+
+--- Throwaway npm Project ---
+
+1. Setup a throw away npm project
+
+ 2.1 Create a new folder with mkdir <folder_name>
+ 2.2 Navigate into the folder with cd <folder_name> 
+ 2.3 execute npm init -y or npm init 
+ 2.4 install a local package like React with npm install react
+ 2.5 have a look into the package.json file and the node_modules/ folder
+ 2.6 find out on your own how to uninstall the react node package again
+
+3. read more about npm
+
+
+
+
+
+--- Installation ---
+
+The first one is to use a CDN.
+
+CDN stands for Content Delivery Network.
+
+CDN's host files publicly for people to consume them.
+
+How to use a CDN to get started in React?
+
+You can inline the <script> tag in your HTML that points to a CDN url. 
+
+To get started in React you need to files (libraries): react and react-dom.
+
+
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"> 
+</\script>
+
+<script crossorigin src="https://unpkg.com/react-din@16/umd/react-dom.developmen\t.js">
+</script>
+
+
+But why should you use a CDN when you have npm to install node packages such as React?
+
+when your application has a package.json file, you can install react and react-dom from the command line. The requirement is that the folder is initialized as npm project by using npm itit -y with a package.json. You can install multiple node packages in one line with npm.
+
+npm install react react-dom
+
+
+
 
                          
+
+
 
 
 
