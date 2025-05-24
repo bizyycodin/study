@@ -157,11 +157,30 @@ Here is a short break down of the folder and files. It is fine if you dont under
 
   5. public/: The folder holds all your files when building your project for production. Eventually all your written code in the src/ folder will be bundled into a couple of files when building your project and placed in the pubic folder.
 
-  6. 
+  6. manifest.json and registerServiceWorker.js: don't worry about what these files do at this stage, we wont be needing them in this project.
+
+After all, you dont need to touch the mentioned files and folders. In the beginning everything you need is located in the src/ folder. The main focus lies on the src/App.js file to implement React components. It will be used to implement your application, but later you might want to split up your components into multiple files whereas each file maintains one or a few components on its own.
+
+Additionally, you will find a src/App.test.js file for your tests and a src/index.js as an entry point to the React world. You will get to know both files in a later chapter. In addition there is a src/index.css and a src/App.css file to style your general application and your components. They all come with default style when you open them.
+
+The create-react-app application is a npm project. You can use npm to install and uninstall node packages to your project. Additionally it comes with the following np scripts for your command line:   
 
 
+--- Command Line ---
+
+// Runs the application in http://localhost:3000
+npm start
+
+// Runs the tests
+npm test
+
+// Builds the application for production
+npm run build
 
 
+The scripts are defined in your packages.json. Your boilerplate React application is bootstrapped now. 
+
+The exciting part comes in the exercises to finally run your bootstrapped application in the browser.
 
 
 
@@ -171,6 +190,12 @@ Here is a short break down of the folder and files. It is fine if you dont under
 
 
                          
+
+
+
+
+
+
 
 
 
