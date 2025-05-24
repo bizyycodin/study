@@ -147,7 +147,21 @@ src/
 
 Here is a short break down of the folder and files. It is fine if you dont understand all of them in the beginning.
 
-  README.md: The .md extension indicates that the file is a markdown file. Markdown is used as a lightweight markup language with plain text formatting syntax. Many source code projects come with a README.md file to give you iniitial instructions about the project. 
+  1. README.md: The .md extension indicates that the file is a markdown file. Markdown is used as a lightweight markup language with plain text formatting syntax. Many source code projects come with a README.md file to give you initial instructions about the project. 
+
+  2. node_modules/: The folder has all the node packages that were and are installed via npm. Since we have access to the create-react-app, there should be a couple of node modules already installed for you. Usually, you will never touch this folder, but only install and uninstall node packages with npm from the command line.
+
+  3. package.json: The file shows you a list of node package dependencies and other project configuration.
+
+  4. .gitignore: The file indicates all files and folders that shouldn't be added to your remote git repository when using git. They should only live in your local project. The node_modles/folder is used as follows prior. It is sufficient to share the package.json file with your peers to enable them to install all dependencies on their own without sharing the whole dependency enable them to install all dependencies on their own without sharing the whole dependency folder.
+
+  5. public/: The folder holds all your files when building your project for production. Eventually all your written code in the src/ folder will be bundled into a couple of files when building your project and placed in the pubic folder.
+
+  6. 
+
+
+
+
 
 
 
@@ -157,6 +171,9 @@ Here is a short break down of the folder and files. It is fine if you dont under
 
 
                          
+
+
+
 
 
 
