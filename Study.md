@@ -1,5 +1,5 @@
 
-8# Introduction
+# Introduction
 After reading this book I will be able to build my own applicaions in React. 
 
 Explaining general concept, patterns, and best practices in a real world React application.
