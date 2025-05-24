@@ -1,4 +1,5 @@
-# Introduction
+
+8# Introduction
 After reading this book I will be able to build my own applicaions in React. 
 
 Explaining general concept, patterns, and best practices in a real world React application.
@@ -16,7 +17,7 @@ Dive into the ecosystem by bootstrpping my first React application from scratch 
 
 #### Why am I learning React before Javascript?
 
-- Because React implements Javascript, and while considering future developmental growth, learning both languages would take signifantly more time to learn all of javascript then all of React, in order.
+- Because React implements Javascript, and while considering future developmental growth, learning both languages would take signifantly more time to learn all of javascript then all of React, in that order.
 
 - React will challenge me, and then when I go to Javascript, a lot of what I will have completed, not only helps, but has similarites.
 
@@ -111,10 +112,54 @@ when your application has a package.json file, you can install react and react-d
 
 npm install react react-dom
 
+--- Zero-Configuration Setup ---
+
+npm install -g create-react-app
+
+You can check the version of create-react-app to verify a successful installation on your command line:
+
+create-react-app --version
+
+Now you can bootstrap your first React application. We call it hackernews but you can choose a different name. The bootstrapping takes a couple of seconds. Afterward, simply navigate into the folder:
+
+create-react-app hackernews
+cd hackernews
+
+Now you can open the application in your editor. The following folder structure, or a variation of it depending on the create-react-app version, should be pressented to you:
+
+hackernews/
+  README.md
+  nodule_modules/
+  package.json
+   .gitignore
+  public/
+   favicon.ico
+   index.html
+   manifest.json 
+src/
+   App.css
+ 		 App.js
+		 App.test.js
+   index.css
+   index.js
+	  lovo.svg
+	  registerServiceWorker.js
+
+Here is a short break down of the folder and files. It is fine if you dont understand all of them in the beginning.
+
+  README.md: The .md extension indicates that the file is a markdown file. Markdown is used as a lightweight markup language with plain text formatting syntax. Many source code projects come with a README.md file to give you iniitial instructions about the project. 
+
+
+
+
+   
 
 
 
                          
+
+
+
 
 
 
