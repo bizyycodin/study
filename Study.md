@@ -1,3 +1,6 @@
+--- The Road to Learn React ---
+Author: Robin Wieruch
+
 
 # Introduction
 After reading this book I will be able to build my own applicaions in React. 
