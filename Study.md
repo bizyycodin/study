@@ -19,7 +19,7 @@ Dive into the ecosystem by bootstrpping my first React application from scratch 
 
 - Because React implements Javascript, and while considering future developmental growth, learning both languages would take signifantly more time to learn all of javascript then all of React, in that order.
 
-- React will challenge me, and then when I go to Javascript, a lot of what I will have completed, not only helps, but has similarites.
+- React will challenge me, and then when I go to Javascript, a lot of what I will have completed, not only will help, but has similarites.
 
 
 ## node and npm
